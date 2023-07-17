@@ -11,7 +11,7 @@ body {
 }
 
 .s-discription {
-    color:  #757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -53,10 +53,12 @@ nav a {
     color: #FD6E0A;
 
 }
-.t{
+
+.t {
     color: #FD6E0A;
 }
-.r{
+
+.r {
     color: blue;
 }
 
@@ -120,9 +122,13 @@ nav a {
 
 
 /* main sction style */
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 
@@ -134,13 +140,64 @@ main{
     text-align: center;
     margin-top: 130px 0px;
 }
-.aboutinfo{
+
+.aboutinfo {
     display: flex;
     justify-content: space-between;
 }
-.info-title{
+
+.info-title {
     text-align: center;
 }
-#what-i-do-description{
+
+/* skll related styles */
+.whatido {
+    background-color: #f4f1ee;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.class-title {
+    text-align: center;
+
+}
+
+/* .skill-description{
+    padding: 30px; */
+.skill-description {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+#what-i-do-description {
     padding: 30px 150px;
+}
+
+/* resule colum */
+.section-title{
+    text-align: center;
+}
+.rsume-colum-title{
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
 }
