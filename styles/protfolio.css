@@ -224,7 +224,44 @@ main section {
     font-weight: 700;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+.section-description {
+    color: var(--dark-01, #676262);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 113px;
+}
+.social-links a{
+    margin-right: 30px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 26px;
+    padding: 18px 35px;
+    color: gray;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 100%;
+    border: 0;
+}
+.button{
+    background-color: #FD6E0A;
 }
